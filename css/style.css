@@ -21,7 +21,6 @@
 }
 
 .container1 {
-  border: 1px solid black;
   width: 40%;
   height: 100%;
 }
@@ -30,7 +29,8 @@
   align-items: left;
   display: flex;
   flex-direction: column;
-  margin-top: 50%;
+  margin-top: 33%;
+  margin-left: 20px;
 }
 
 .text1 {
@@ -39,9 +39,72 @@
 }
 
 .container2 {
-  background-color: white;
-  border: 1px solid black;
   width: 40%;
   height: 100%;
   margin-left: 30px;
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  width: 70%;
+  height: 50%;
+  flex-direction: column;
+  margin-top: 130px;
+  margin-left: 75px;
+  border-radius: 10px;
+  border: 2px solid #dee0e2;
+}
+
+.unsername {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  height: auto;
+  width: 90%;
+  height: 100%;
+}
+
+.email {
+  border-radius: 10px;
+  height: 20%;
+  border: 1px solid #dee0e2;
+  margin-bottom: 10px;
+}
+
+.pass {
+  border-radius: 10px;
+  height: 20%;
+  border: 1px solid #dee0e2;
+  margin-bottom: 10px;
+}
+
+.tbl1 {
+  height: 20%;
+  background-color: blue;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.forget {
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid #dee0e2;
+}
+
+.create {
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(111, 211, 11);
+  margin: 20px 90px;
+  border-radius: 10px;
 }
