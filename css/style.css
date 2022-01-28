@@ -156,6 +156,10 @@
   border-radius: 10px;
 }
 
+.login-footer p {
+  font-family: -webkit-pictograph;
+}
+
 @media screen and (max-width: 600px) {
   .header {
     background-color: #f0f2f5;
